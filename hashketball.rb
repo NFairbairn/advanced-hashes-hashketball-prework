@@ -179,5 +179,6 @@ end
 def team_names(team_name)
   game_hash.each do |location, team_data|
     binding.pry
+  end
 
 end
