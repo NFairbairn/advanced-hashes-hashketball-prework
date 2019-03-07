@@ -241,6 +241,5 @@ def big_shoe_rebounds
       end
     end
   end
-  if data_item = player_name
-    
+  player_name
 end
