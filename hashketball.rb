@@ -200,5 +200,12 @@ def player_numbers(team_name)
               stats.each do |stat_key, value|
                 if stat_key == :number
                   number << value
-
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
 end
