@@ -239,6 +239,7 @@ def big_shoe_rebounds
               end
               if stat_key == :rebounds
                 player_rebounds = value
+              end
             end
           end
       end
