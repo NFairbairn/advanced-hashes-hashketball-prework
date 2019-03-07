@@ -176,7 +176,7 @@ def team_colors(team_name)
 end
 
 
-def team_names(teams)
+def team_names
   game_hash.each do |location, team_data|
     binding.pry
   end
