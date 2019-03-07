@@ -233,7 +233,7 @@ def big_shoe_rebounds
               if stat_key == :shoe
                 if value > shoe_size
                   shoe_size = value
-                  data_item = player_name
+                  player_name = data_item
                 end
               end
             end
