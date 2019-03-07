@@ -231,7 +231,7 @@ def big_shoe_rebounds
             stats.each do |stat_key, value|
               if stat_key == :shoe
                 if value > shoe_size
-                  
+                  shoe_size = value
               end
             end
           end
