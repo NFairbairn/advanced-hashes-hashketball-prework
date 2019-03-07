@@ -232,7 +232,7 @@ def big_shoe_rebounds
               if stat_key == :shoe
                 if value > shoe_size
                   shoe_size = value
-                  
+
                 end
               end
             end
@@ -240,5 +240,10 @@ def big_shoe_rebounds
       end
     end
   end
-  shoe_size
+  game_hash.each do |location, team_data|
+    team_data.each do |attribute, data|
+      if attribute == :players
+          data.each do |data_item, stats|
+            stats.each do |stat_key, value|
+              if stat_key == :rebounds
 end
