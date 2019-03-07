@@ -216,4 +216,11 @@ def player_stats(player_name)
           data.each do |data_item, stats|
             if data_item == player_name
                 return stats
+              end
+            end
+          end
+        end
+      end
+    end
+  end
 end
