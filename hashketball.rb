@@ -176,6 +176,6 @@ def team_colors(team_name)
 end
 
 
-def team_names
+def team_names(team_name)
 
 end
