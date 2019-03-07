@@ -192,6 +192,7 @@ def player_numbers(team_name)
   numbers = []
   game_hash.each do |location, team_data|
     if game_hash[location].values.include?(team_name)
+      binding.pry
       team_data.each do |attribute, data|
           if attribute == :players
             data.each do |data_item, stats|
