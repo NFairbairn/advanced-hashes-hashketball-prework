@@ -192,5 +192,5 @@ end
 def player_numbers(team_name)
   game_hash.each do |location, team_data|
     if game_hash[location].values.include?(team_name)
-    
+
 end
