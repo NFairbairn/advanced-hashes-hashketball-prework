@@ -189,7 +189,7 @@ def team_names
   names
 end
 
-def player_numbers(player)
+def player_numbers(team_name)
   player_shoe = []
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
