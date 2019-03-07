@@ -188,3 +188,23 @@ def team_names
   end
   names
 end
+
+def player_numbers(player)
+  player_shoe = []
+  game_hash.each do |location, team_data|
+    team_data.each do |attribute, data|
+        if attribute == :players
+          data.each do |data_item, stats|
+            if data_item == player
+            stats.each do |stat_key, value|
+              if stat_key == :shoe
+                player_shoe << value
+              end
+              end
+            end
+          end
+        end
+    end
+  end
+  player_shoe[0]
+end
