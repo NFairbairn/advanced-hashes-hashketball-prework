@@ -244,6 +244,7 @@ def big_shoe_rebounds
     team_data.each do |attribute, data|
       if attribute == :players
           data.each do |data_item, stats|
+            binding.pry
             stats.each do |stat_key, value|
               if stat_key == :rebounds
 end
