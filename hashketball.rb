@@ -199,7 +199,6 @@ def player_numbers(team_name)
                 binding.pry
                 if stat_key == :number
                   numbers << value
-                end
               end
             end
           end
