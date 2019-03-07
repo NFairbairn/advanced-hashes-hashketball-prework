@@ -198,7 +198,7 @@ def player_numbers(team_name)
               if data_item == player
               stats.each do |stat_key, value|
                 if stat_key == :number
-                  number << value
+                  numbers << value
                 end
               end
             end
