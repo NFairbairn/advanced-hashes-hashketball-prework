@@ -184,4 +184,5 @@ def team_names
         names << data
     end
   end
+  names
 end
