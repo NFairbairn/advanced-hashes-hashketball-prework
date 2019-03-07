@@ -247,6 +247,7 @@ def big_shoe_rebounds
             if data_item == "Mason Plumlee"
             stats.each do |stat_key, value|
               if stat_key == :rebounds
+                return value
               end
             end
           end
