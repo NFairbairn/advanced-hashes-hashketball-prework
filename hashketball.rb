@@ -215,5 +215,5 @@ def player_stats(player_name)
         if attribute == :players
           data.each do |data_item, stats|
             if data_item == player_name
-              
+
 end
