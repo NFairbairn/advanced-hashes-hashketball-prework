@@ -197,6 +197,6 @@ def player_numbers(team_name)
             data.each do |data_item, stats|
               if data_item == player
               stats.each do |stat_key, value|
-                if stat_key == :shoe
+                if stat_key == :number
 
 end
