@@ -196,7 +196,6 @@ def player_numbers(team_name)
           if attribute == :players
             data.each do |data_item, stats|
               stats.each do |stat_key, value|
-                binding.pry
                 if stat_key == :number
                   numbers << value
               end
