@@ -229,7 +229,7 @@ def big_shoe_rebounds
           data.each do |data_item, stats|
             stats.each do |stat_key, value|
               if stat_key == :shoe
-                return data_item
+                return value
               end
             end
           end
